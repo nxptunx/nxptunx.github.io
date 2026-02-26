@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nxptunx | Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-blue.min.css">
+    
+    <style>
+        :root {
+            --primary-bg: #f3f4f9;
+            --accent-color: #3f51b5;
+            --glass-white: rgba(255, 255, 255, 0.8);
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--primary-bg);
+            color: #333;
+        }
+
+        .mdl-layout__header {
+            background-color: #1a237e; /* Deep Neptune Blue */
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1a237e 0%, #673ab7 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+
+        .hero p {
+            opacity: 0.8;
+            font-weight: 300;
+            font-size: 1.2rem;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Content Styling */
+        .page-content {
+            max-width: 900px;
+            margin: -40px auto 40px;
+            padding: 0 16px;
+        }
+
+        .section-card {
+            width: 100%;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            background: var(--glass-white);
+            backdrop-filter: blur(10px);
+        }
+
+        .mdl-card__title-text {
+            font-family: 'Space Mono', monospace;
+            color: #1a237e;
+        }
+
+        .skill-tag {
+            background: #e8eaf6;
+            color: #1a237e;
+            margin: 4px;
+        }
+
+        /* Music Embed Styling */
+        .music-container {
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        .contact-btn {
+            background-color: #ff4081 !important; /* Pink accent for visibility */
+        }
+
+        /* Responsive Fixes */
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">nxptunx.io</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="https://linktr.ee/nxptunx">Linktree</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mdl-layout__content">
+        <section class="hero">
+            <img src="https://via.placeholder.com/150" alt="nxptunx" class="profile-pic">
+            <h1>nxptunx</h1>
+            <p>Student | Python Developer | Sound Architect</p>
+            <div style="margin-top: 10px; font-size: 0.8rem; font-family: 'Space Mono';">Baku, AZ (GMT+4)</div>
+        </section>
+
+        <div class="page-content">
+            
+            <div class="mdl-card section-card mdl-shadow--4dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">01. system_init()</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    I am a student balancing academic life with a passion for creative coding and music production. 
+                    Currently focusing on Python development and building tools that bridge the gap between utility and aesthetics.
+                    <br><br>
+                    <strong>Tools & Tech:</strong><br>
+                    <span class="mdl-chip skill-tag"><span class="mdl-chip__text">Python</span></span>
+                    <span class="mdl-chip skill-tag"><span class="mdl-chip__text">Qt Framework</span></span>
+                    <span class="mdl-chip skill-tag"><span class="mdl-chip__text">FL Studio</span></span>
+                    <span class="mdl-chip skill-tag"><span class="mdl-chip__text">Material Design</span></span>
+                </div>
+            </div>
+
+            <div class="mdl-card section-card mdl-shadow--4dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">02. featured_repo</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    <h4>Notepad-Qt</h4>
+                    <p>A sleek, functional text editor built using Python and the Qt framework. Designed for simplicity and speed.</p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://github.com/nxptunx/Notepad-Qt" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons" style="vertical-align: middle; margin-right: 8px;">code</i> View on GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="mdl-card section-card mdl-shadow--4dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">03. audio_output</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Exploring the realms of <strong>Lo-Fi, Phonk, and Ambient Dreamscapes</strong>. 
+                    Music is where I translate emotions into frequencies.
+                    
+                    <div class="music-container">
+                        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1739818824&color=%231a237e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    </div>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://soundcloud.com/nxptunx" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                        SoundCloud
+                    </a>
+                </div>
+            </div>
+
+            <div class="mdl-card section-card mdl-shadow--4dp" style="background: #1a237e; color: white;">
+                <div class="mdl-card__supporting-text" style="color: white; text-align: center;">
+                    <h3 style="font-family: 'Space Mono';">Get in touch</h3>
+                    <p>anvarmamedov022@gmail.com</p>
+                    <a href="mailto:anvarmamedov022@gmail.com" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect contact-btn">
+                        Send Message
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            &copy; 2026 nxptunx • Built with Material Design
+        </footer>
+    </main>
+</div>
+
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</html>
